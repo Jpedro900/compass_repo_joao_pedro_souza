@@ -35,3 +35,5 @@ A parte de redes, embora não muito aprofundada, mostrou como gerenciar e monito
 Por fim, aprendi sobre compactação e descompactação de arquivos tanto no formato TAR(Mais usado em Linux) quanto em ZIP(Usado em Windows)
 
 Sinto que tive um grande aprendizado com esta unidade da sprint, conseguindo compreender melhor um novo sistema operacional tão usado na área da tecnologia.
+
+<img src="https://udemy-certificate.s3.amazonaws.com/image/UC-550cfd91-a2ad-4335-bf39-cd0a70847116.jpg" width = "500px" />
