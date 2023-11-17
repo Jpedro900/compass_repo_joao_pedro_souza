@@ -22,5 +22,17 @@ Nesse mesmo módulo também aprendi a como iniciar e configurar um repositório 
 * `git remote add origin <LINK>` - Adiciona o ponto de origem remoto do nosso repositório através do link do mesmo
 * `push -u origin main` - Envia os arquivos para a origem do projeto
 
+Após isso fui ensinado a usar a função `git remote` para fazer o gerenciamento da origem do projeto, ou seja, esocolher um repositorio pra ser o repositorio remoto do projeto ou para alterar o mesmo.
+
+Ao trabalhar com submódulos, que nos permite ter 2 ou mais projetos ao mesmo tempo, praticamente, percebi ser bastante útil para o caso de querer criar diversos projetos dentro do prjeto principal. Para a criação do mesmo, após criar um repositório, usamos o comando `git submodule add <LINK DO REPOSITÓRIO><NOME DO SUBMÓDULO>` para adicioná-lo ao projeto atual como um submódulo, e para a visualização de todos os submódulos criados usamos o comando `git submodule`.
+
+Para atualizar um submódulo usamos o comando `git push --resurse-submodules=on-demand`, o que fará a atualização apenas do submódulo onde estivermos.
+
+As próximas seções foram mais focadas em partes mais avançadas e espefícias do Git como a utilização do `git show` para sabermos o que há de diferente em outros branchs ou tags em comparação com a branch main. Outro comando também utilizado para comparação de branchs é o `git diff`, que é utilizado para exibir as diferenças da branch em relação ao remoto ou para comparação de duas branchs específicas.
+
+
+
+
+
 
 
