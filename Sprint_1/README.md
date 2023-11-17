@@ -1,5 +1,7 @@
 # Sprint 1
 
+![pinguim-linux-tux-6](https://github.com/Jpedro900/compass_repo_joao_pedro_souza/assets/127545539/a31f33b0-0c5c-4213-a193-d4404d0b21ec)![git-icon](https://github.com/Jpedro900/compass_repo_joao_pedro_souza/assets/127545539/5847ad6a-0174-4c52-a31f-625b251b8a66)
+
 ## Linux e Git 
 
 Neste primeiro sprint fomos ensinados o básico acerca de Linux e Git, onde aprendemos seus principais comandos e como integrar seu uso ao dia-a-dia no trabalho.
