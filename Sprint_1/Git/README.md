@@ -117,7 +117,18 @@ Falando um pouco sobre Gists, aprendi que são pequenos blocos de código que po
 
 Para finalizar, o curso me ensinou algumas formas de formatação de um arquivo Markdown. Abaixo mostrarei algumas das utilidades dessa lingagem de marcação de texto.
 
+* `# - ###### Para hierarquias de títulos`;
+* `*<texto>* ou _<texto>_ Para textos em itálico`;
+* `**<texto>** ou __<texto>__ Para textos em negrito`;
+* `* / 1., 2., 3., ... Para listas não-ordenadas e ordenadas respectivamente, sendo possível fazer listas aninhadas`;
+* `![<Texto alt>](<Link da imagem>) Para inserir imagens. Pode ser usado tanto para imagens locais quanto externas`;
+* `[<Texto do link>](<Link>) Para inserir links clicáveis`;
+* ` ```Código``` Para inserir um código;`
+* ` -[ ] e -[x] Para exibir uma lista de tarefas para concluir/concluídas, respectivamente`
 
+Com isso finalizei o curso. Senti que esse curso foi muito útil para que eu consiga usar as ferramentas tanto do Git quanto do GitHub melhor em um ambiente de trabalho e ser mais produtivo ainda.
+
+<img src="https://udemy-certificate.s3.amazonaws.com/image/UC-34fe3814-8bc0-4533-8838-f2f7afbeea4f.jpg" width = "500 px" />
 
 
 
