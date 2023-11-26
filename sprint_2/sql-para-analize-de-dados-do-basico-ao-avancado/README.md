@@ -320,5 +320,97 @@ SELECT
 FROM <nome_da_tabela>
 ~~~
 
-+
+### FUNÇÕES
+Servem para criar comandos personalizados de scripts usados recorrentemente.
 
+#### CRIAR FUNÇÃO
+~~~SQL
+CREATE FUNCTION <nome_da_função>(<parâmetros>)
+RETURNS <unidade_da_váriável_de_saída>
+LANGUAGE <linguagem_que_essa_função_será_lida>
+
+AS
+
+$$
+<querie>
+$$
+~~~
+
+#### DELETAR FUNÇÃO
+~~~SQL
+DROP FUNCTION <nome_da_função>
+~~~
+
+## MANIPULAÇÃO DE TABELAS
+### CRIAÇÃO DE TABELAS
+~~~SQL
+CREATE TABLE <nome_da_tabela>(
+      <coluna_1> <unidade>,
+      <coluna_2> <unidade>,
+      .
+      .
+      .
+)
+~~~
+
+### DELEÇÃO DE TABELAS
+~~~SQL
+DROP TABLE <nome_da_tabela>
+~~~
+
+### INSERÇÃO LINHAS
+~~~SQL
+INSERT INTO <nome_da_tabela>
+VALUES
+(<dado_coluna_1>,<dado_coluna_2>,...)//Linha 1
+(<dado_coluna_1>,<dado_coluna_2>,...)//Linha 2
+.
+.
+. 
+~~~
+
+### ATUALIZAR LINHAS
+~~~SQL
+UPDATE <nome_da_tabela>
+SET <coluna_1> = '<dado_correspondente>'
+WHERE <coluna_2> = '<dado_corrigido>'
+~~~
+
+### DELETAR LINHAS
+~~~SQL
+DELETE FROM <nome_da_tabela>
+WHERE <coluna> = '<dado>'
+~~~
+
+### INSERÇÃO DE COLUNAS
+~~~SQL
+ALTER TABLE <nome_da_tabela>
+ADD <coluna> <unidade>
+~~~
+
+### ATUALIZAÇÃO DE COLUNAS
+~~~SQL
+UPDATE <nome_da_tabela>
+SET <coluna> = '<dado>'
+~~~
+
+### DELEÇÃO DE COLUNAS
+~~~SQL
+ALTER TABLE <nome_da_tabela>
+DROP COLUMN <nome_da_coluna>
+~~~
+
+## PROJETO 1 - DASHBOARD DE ACOMPANHAMENTO DE VENDAS
+### CRIAR UM DASHBOARD DE VENDAS COM OS PRINCIPAIS INDICADORES DE DESEMPENHA E COM OS PRINCIPAIS DRIVERS DOS RESULTADOS DO MÊS
+
+![image](https://github.com/Jpedro900/compass_repo_joao_pedro_souza/assets/127545539/47d393fa-765d-4d49-8f91-c83f6089dee5)
+
+## PROJETO 2 - ANÁLISE DE PERFIL DOS CLIENTES
+### CRIAR UM DASHBOARD QUE ANALISE AS PRINCIPAIS CARACTERÍSTICAS DOS LEADS QUE VISITAM NOSSO E-COMMERCE
+
+![image](https://github.com/Jpedro900/compass_repo_joao_pedro_souza/assets/127545539/6f1d66b8-77a6-487f-85a0-d47f9e3c3019)
+
+## CONCLUSÃO
+Com esses projetos finais, finalizei o curso de SQL, um curso muito bom com uma abordagem bem direta e técnica. Com certeza sinto que estou muito melhor em análise de dados e manipulação de tabelas em SQL.
+
+![CERTIFICADO SQL](https://github.com/Jpedro900/compass_repo_joao_pedro_souza/assets/127545539/787004c7-6db4-4c0d-be73-9c74e7ae8d43)
