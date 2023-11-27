@@ -2,10 +2,6 @@
 
 Neste curso aprenderei sobre como criar e manusear tabelas em um banco de dados através da linguagem SQL, desde seus princípios básicos até partes mais avançadas.
 
-Todo o curso seguirá o banco de dados cujo diagrama está representado abaixo:
-
-![diagrama-de-classes](diagrama-de-classes.PNG)
-
 ## COMANDOS BÁSICOS
 
 ###SELECT
