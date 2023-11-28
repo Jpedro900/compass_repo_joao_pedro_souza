@@ -240,7 +240,19 @@ Apresente a query para listar *código, nome e data de nascimento* dos dependent
 As colunas presentes no resultado devem ser *cddep, nmdep, dtnasc e valor_total_vendas*.
 
 ~~~SQL
-
+SELECT
+	dep.cddep,
+    dep.nmdep,
+    dep.dtnasc,
+    SUM(tbvendas.qtd*tbvendas.vrunt) as valor_total_vendas
+FROM tbvendas
+LEFT join tbdependente as dep
+	on tbvendas.cdvdd = dep.cdvdd
+where dep.cddep is not null
+and tbvendas.status = 'Concluído'
+group by tbvendas.cdvdd, dep.cddep
+ORDER by valor_total_vendas 
+LIMIT 1
 ~~~
 
 ## DESAFIO 13
@@ -266,7 +278,14 @@ Considere apresentar a coluna gastomedio arredondada na segunda casa decimal e o
 Observação: Apenas vendas com status concluído.
 
 ~~~SQL
-
+SELECT 
+	estado,
+    round(avg(qtd*vrunt),2) as gastomedio
+FROM tbvendas
+WHERE status = 'Concluído'
+and pais = 'Brasil'
+GROUP by estado
+ORDER BY gastomedio desc
 ~~~
 
 ## DESAFIO 15
@@ -289,5 +308,13 @@ Ordene os resultados pelo estado (1º) e nome do produto (2º).
 Obs: Somente vendas concluídas.
 
 ~~~SQL
-
+SELECT 
+	estado,
+    nmpro,
+    round(avg(qtd),4) as quantidade_media
+FROM tbvendas
+WHERE status = 'Concluído'
+and pais = 'Brasil'
+GROUP by estado,nmpro
+ORDER BY estado,nmpro
 ~~~
