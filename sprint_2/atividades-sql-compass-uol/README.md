@@ -240,18 +240,54 @@ Apresente a query para listar *código, nome e data de nascimento* dos dependent
 As colunas presentes no resultado devem ser *cddep, nmdep, dtnasc e valor_total_vendas*.
 
 ~~~SQL
-SELECT
-	cdcli,
-	nmcli,
-	SUM(qtd*vrunt) as gasto 
-FROM tbvendas as vendas
-WHERE status = 'Concluído'
-GROUP BY cdcli 
-ORDER BY gasto DESC 
-LIMIT 1
+
 ~~~
 
 ## DESAFIO 13
+Apresente a query para listar os 10 produtos menos vendidos pelos canais de E-Commerce ou Matriz (Considerar apenas vendas concluídas).
+As colunas presentes no resultado devem ser *cdpro, nmcanalvendas, nmpro e quantidade_vendas*.
+
+~~~SQL
+SELECT 
+	cdpro,
+	nmcanalvendas,
+	nmpro,
+	SUM(qtd) as quantidade_vendas 
+FROM tbvendas
+WHERE status = 'Concluído'
+GROUP BY cdpro, nmcanalvendas 
+ORDER BY quantidade_vendas
+~~~
+
 ## DESAFIO 14
+Apresente a query para listar o gasto médio por estado da federação. 
+As colunas presentes no resultado devem ser *estado e gastomedio*. 
+Considere apresentar a coluna gastomedio arredondada na segunda casa decimal e ordenado de forma decrescente.
+Observação: Apenas vendas com status concluído.
+
+~~~SQL
+
+~~~
+
 ## DESAFIO 15
+Apresente a query para listar os códigos das vendas identificadas como deletadas. 
+Apresente o resultado em ordem crescente.
+
+~~~SQL
+SELECT 
+	cdven
+FROM tbvendas
+where deletado = '1'
+ORDER BY cdven
+~~~
+
 ## DESAFIO 16
+Apresente a query para listar a quantidade média vendida de cada produto agrupado por estado da federação.
+As colunas presentes no resultado devem ser *estado e nmprod e quantidade_media*. 
+Considere arredondar o valor da coluna quantidade_media na quarta casa decimal.
+Ordene os resultados pelo estado (1º) e nome do produto (2º).
+Obs: Somente vendas concluídas.
+
+~~~SQL
+
+~~~
