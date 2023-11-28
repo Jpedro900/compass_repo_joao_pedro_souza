@@ -1,7 +1,7 @@
 # DESAFIOS COMPASS UOL SQL
 
 ## CASO DE ESTUDO BIBLIOTECA
-*todos os desafios dessa seção seguirão o diagrama entidade-relacionamento abaixo*
+*Esse primeiro caso seguirá diagrama entidade-relacionamento abaixo*
 ![diagrama-entidade-relacionamento](https://github.com/Jpedro900/compass_repo_joao_pedro_souza/assets/127545539/229f11b4-2920-4850-8e9c-05019d5f7af8)
 
 ## DESAFIO 1
@@ -134,6 +134,9 @@ where l.publicacao is NULL
 ~~~
 
 ## CASO DE ESTUDO LOJA
+*Esse segundo caso seguirá diagrama entidade-relacionamento abaixo*
+
+![DER_Loja](https://github.com/Jpedro900/compass_repo_joao_pedro_souza/assets/127545539/09dfa86e-f16f-493e-bec3-f89cdfcc94aa)
 
 ## DESAFIO 8
 Apresente a query para listar o código e o nome do vendedor com maior número de vendas (contagem), e que estas vendas estejam com o status concluída.
