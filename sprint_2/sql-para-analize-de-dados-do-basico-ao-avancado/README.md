@@ -4,7 +4,7 @@ Neste curso aprenderei sobre como criar e manusear tabelas em um banco de dados 
 
 ## COMANDOS BÁSICOS
 
-###SELECT
+### SELECT
 Serve para selecionar colunas de uma tabela.
 
 ~~~SQL
