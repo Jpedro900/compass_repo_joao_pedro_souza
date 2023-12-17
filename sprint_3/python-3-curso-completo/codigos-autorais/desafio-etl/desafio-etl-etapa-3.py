@@ -42,5 +42,6 @@ def actor_with_most_gain_per_movie(file_path):
 file_path = 'actors.csv'
 actor = actor_with_most_gain_per_movie(file_path)
 
+# Escreve o resultado em um arquivo de texto
 with open('etapa-3.txt', 'w') as file:
     file.write(f'O ator com maior faturamento por filme é {actor}')

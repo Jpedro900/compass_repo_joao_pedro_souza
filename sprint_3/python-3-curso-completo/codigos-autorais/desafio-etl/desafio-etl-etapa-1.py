@@ -23,7 +23,8 @@ def find_actor_with_most_movies(file_path):
 
             if line[4].startswith('1'):    
                 line[4] = line[4].replace('1.8','')
-
+            
+            # Retirar espaços em branco e quebra de linha
             for i in range(len(line)):
                 line[i] = line[i].strip()
 

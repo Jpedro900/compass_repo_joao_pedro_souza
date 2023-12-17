@@ -33,12 +33,14 @@ def media_of_gross(file_path):
                 soma += float(line[5])
             count += 1
     
+    # Retorna a média
     return (soma/(count-1))
             
 
 file_path = 'actors.csv'
 media = media_of_gross(file_path)
 
+# Escreve o resultado em um arquivo de texto
 with open('etapa-2.txt', 'w') as file:
     file.write(f'A media de faturamento é {media:.2f}')
 

@@ -51,7 +51,7 @@ def most_apearence_of_1_movie(file_path):
 file_path = 'actors.csv'
 most_apearence = most_apearence_of_1_movie(file_path)
 
-# Imprime o dicionário em sequência
+# Escreve o resultado em um arquivo de texto
 with open('etapa-4.txt', 'w') as file:
     for index, key, value in zip(range(len(most_apearence)), most_apearence.keys(), most_apearence.values()):
         file.write(f"{index} - O filme {key} aparece {value} vez(es) no dataset\n")

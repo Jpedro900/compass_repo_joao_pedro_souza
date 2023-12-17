@@ -2,7 +2,6 @@
 def actor_by_total_gross(file_path):
     count = 0
     lista_filmes = []
-    contagem = {}
 
     # Abre o arquivo e itera sobre as linhas
     with open(file_path, 'r') as file:
