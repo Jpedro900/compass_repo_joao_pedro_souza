@@ -24,12 +24,12 @@ Estou muito empolgado com a oportunidade que conquistei com esse programa de bol
 ## Certificados
 
 ### CERITIFICADO GIT/GITHUB
-[](certificados/CERITIFICADO GIT_GITHUB.png)
+![](certificados/CERITIFICADO_GIT_GITHUB.png)
 ### CERTIFICADO LINUX PARA DESENVOLVEDORES
-[](certificados/CERTIFICADO LINUX.png)
+![](certificados/CERTIFICADO_LINUX.png)
 ### CERTIFICADO SQL
-[](certificados/CERTIFICADO SQL.png)
+![](certificados/CERTIFICADO_SQL.png)
 ### CERTIFICADO BIGDATA
-[](certificados/CERTIFICADO BIGDATA.png)
+![](certificados/CERTIFICADO_BIGDATA.jpg)
 ### CERTIFICADO PYTHON
-[](certificados/CERTIFICADO PYTHON.png)
+![](certificados/CERTIFICADO_PYTHON.png)
