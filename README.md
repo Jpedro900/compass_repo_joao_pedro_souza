@@ -19,3 +19,17 @@ Estou muito empolgado com a oportunidade que conquistei com esse programa de bol
 ## Desafio
 
 1. [Desafio Final](Desafio/README.md)
+
+
+## Certificados
+
+### CERITIFICADO GIT/GITHUB
+[](certificados/CERITIFICADO GIT_GITHUB.png)
+### CERTIFICADO LINUX PARA DESENVOLVEDORES
+[](certificados/CERTIFICADO LINUX.png)
+### CERTIFICADO SQL
+[](certificados/CERTIFICADO SQL.png)
+### CERTIFICADO BIGDATA
+[](certificados/CERTIFICADO BIGDATA.png)
+### CERTIFICADO PYTHON
+[](certificados/CERTIFICADO PYTHON.png)
