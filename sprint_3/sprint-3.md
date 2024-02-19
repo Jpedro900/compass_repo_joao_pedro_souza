@@ -2,7 +2,7 @@
 
 ![python](https://github.com/Jpedro900/compass_repo_joao_pedro_souza/assets/127545539/c66a0eb8-fe53-4ad5-912f-8ea7ef0a200b)
 
-# Python 3
+## Python 3
 
 Ao longo deste segundo sprint, mergulhei profundamente no mundo da programação com Python, desde os conceitos mais básicos até as técnicas mais avançadas. Fui conduzido por um percurso repleto de descobertas e desafios, explorando as nuances dessa linguagem poderosa e versátil.
 
