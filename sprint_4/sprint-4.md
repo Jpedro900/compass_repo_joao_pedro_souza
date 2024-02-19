@@ -2,7 +2,7 @@
 
 ![python](https://github.com/Jpedro900/compass_repo_joao_pedro_souza/assets/127545539/fd6f56e3-ce2e-4e4f-acb0-18670896249a)![static (1)](https://github.com/Jpedro900/compass_repo_joao_pedro_souza/assets/127545539/40ff7c9f-9838-4863-8ed9-f2871aa28599)
 
-# Docker e Estatística Descritiva
+## Docker e Estatística Descritiva
 
 Durante este quarto sprint, me aprofundei em duas áreas fundamentais: Docker e Estatística Descritiva em Python. Cada curso foi uma jornada de descoberta e aprendizado, proporcionando-me insights valiosos e habilidades essenciais para minha carreira na área da tecnologia.
 
