@@ -1,0 +1,20 @@
+CREATE VIEW vw_fato_locacao AS
+SELECT
+    L.idLocacao,
+    L.idCliente,
+    C.nomeCliente,
+    L.idVendedor,
+    V.nomeVendedor,
+    L.idCarro,
+    Ca.marcaCarro,
+    Ca.modeloCarro,
+    L.dataLocacao,
+    L.horaLocacao,
+    L.qtdDiaria,
+    L.vlrDiaria,
+    L.dataEntrega,
+    L.horaEntrega
+FROM tb_locacao L
+JOIN tb_cliente C ON L.idCliente = C.idCliente
+JOIN tb_vendedor V ON L.idVendedor = V.idVendedor
+JOIN tb_carro Ca ON L.idCarro = Ca.idCarro;

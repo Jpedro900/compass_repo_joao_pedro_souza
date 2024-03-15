@@ -1,0 +1,7 @@
+CREATE VIEW vw_dim_vendedor AS
+SELECT
+    idVendedor,
+    nomeVendedor,
+    sexoVendedor,
+    estadoVendedor
+FROM tb_vendedor;

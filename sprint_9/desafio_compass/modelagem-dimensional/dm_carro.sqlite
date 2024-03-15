@@ -1,0 +1,11 @@
+CREATE VIEW vw_dim_carro AS
+SELECT
+    idCarro,
+    kmCarro,
+    classiCarro,
+    marcaCarro,
+    modeloCarro,
+    anoCarro,
+    idcombustivel,
+    tipoCombustivel
+FROM tb_carro;
